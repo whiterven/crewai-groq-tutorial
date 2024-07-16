@@ -25,6 +25,7 @@ class PersonalizeEmailTask():
             """,
             agent=agent,
             expected_output=f"Personalized email draft.",
+            output_file='email_one.txt',
             async_execution=True,
         )
 
